@@ -1,9 +1,23 @@
+<<<<<<< 517bef9a4b83c8368b0223b91eaa55c64eb43174
+=======
+# Prerequisites
+*.d
+
+>>>>>>> First commit.
 # Object files
 *.o
 *.ko
 *.obj
 *.elf
 
+<<<<<<< 517bef9a4b83c8368b0223b91eaa55c64eb43174
+=======
+# Linker output
+*.ilk
+*.map
+*.exp
+
+>>>>>>> First commit.
 # Precompiled Headers
 *.gch
 *.pch
@@ -27,7 +41,18 @@
 *.i*86
 *.x86_64
 *.hex
+repl
 
 # Debug files
 *.dSYM/
 *.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
